@@ -1,0 +1,27 @@
+@page "/registerform"
+
+<PageTitle>Formulario de registro</PageTitle>
+
+<div class="container-fluid">
+    <form action="" method="POST">
+        <label for="fecha">Fecha del accidente:</label><br>
+        <input type="date" id="fecha" name="fecha" required><br><br>
+
+        <label for="descripcion">Descripcion:</label><br>
+        <textarea id="descripcion" name="descripcion" rows="6" cols="100" required></textarea><br><br>
+
+        <label for="costo">Costo económico:</label><br>
+        <input type="number" id="costo" name="costo" step="0.01" required><br><br>
+
+        <label for="muertos">Muertos:</label><br>
+        <input type="number" id="muertos" name="muertos" required><br><br>
+
+        <label for="heridos">Heridos:</label><br>
+        <input type="number" id="heridos" name="heridos" required><br><br>
+
+        <label for="vehiculos">Cantidad de vehiculos:</label><br>
+        <input type="number" id="vehiculos" name="vehiculos" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+</div>
